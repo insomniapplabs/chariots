@@ -1,0 +1,120 @@
+/* FONTS */
+.latolight { font-family:'latolight'; }
+.latohairline { font-family:'latohairline'; }
+.latoregular { font-family:'latoregular'; }
+.latobold { font-family:'latobold'; }
+.latoblack { font-family:'latoblack'; }
+
+/* NAVBAR OVERRIDES */
+.navbar-default {
+  background: url('/assets/images/grayop.png');
+  border:none;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-family:'latoregular';
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: #777;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-family:'latoregular';
+  text-transform:uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-default .navbar-link {
+  color: #777;
+}
+.navbar-default .navbar-link:hover {
+  color: #333;
+}
+
+
+/* MAIN CONTAINERS */
+.container { width:850px; }
+
+.navbar { margin-bottom:0; }
+.header-container { background-image:url('/assets/images/moto2.jpg');min-height:750px;background-position:center;background-repeat:no-repeat;background-color:#ddd; }
+.callout-container { background:#FED54A;padding:30px 0; }
+.about-container { padding:60px 0 60px 0; }
+.events-container { background:#E4E5E6;padding:60px 0 60px 0; }
+.prayer-container { background:#628FC9;padding:60px 0 60px 0; }
+.contact-container { background:#111;min-height:200px; }
+.prayer-form-container { }
+
+
+
+.callout-text { text-align:center;font-size:2.5em; }
+.about-heading { font-size:3.0em;margin:0 0 30px 0;color:#628FC9; }
+.about-text { font-family:'latolight';font-size:1.3em;text-align:center;line-height:1.4;padding-bottom:15px; }
+.prayer-heading { font-size:3.0em;margin:0 0 30px 0;color:#2c425f; }
+.prayer-text { font-family:'latolight';font-size:1.3em;text-align:center;line-height:1.4;padding-bottom:15px;color:#fff; }
+label.whitel { color:#2c425f;font-family:'latoregular';font-size:1.3em; }
+
+.event-title { margin:0 0 7px 0; }
+.event-date { font-size:1.2em; }
+.event-detail { font-size:1.3em;line-height:1.4; }
